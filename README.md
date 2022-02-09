@@ -8,7 +8,7 @@ Contents:
 data
 
 
-  dp_img
+    dp_img
   
   
     Has images to be shown in edit menu
@@ -29,41 +29,38 @@ data
 mygrid.kv
 
 
-  Kivy file
+    Kivy file
   
   
 db_conn.py
 
 
-  sqlite3 python file
+    sqlite3 python file
   
   
 dp_gest.py
 
 
-  display gestures from dp_img
+    display gestures from dp_img
   
   
 main.py
 
 
-  main python file
-
-
 tryials.py
 
 
-  try new code before adding to above
+    try new code before adding to above
   
   
 newtryials.py
 
 
-  return of the tryials
+    return of the tryials
   
   
  
 error.txt
 
 
-  save error if needed
+    save error if needed
