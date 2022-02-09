@@ -1,0 +1,60 @@
+[INFO   ] [Logger      ] Record log in C:\Users\shroi\.kivy\logs\kivy_21-01-18_14.txt
+[INFO   ] [deps        ] Successfully imported "kivy_deps.gstreamer" 0.3.1
+[INFO   ] [deps        ] Successfully imported "kivy_deps.angle" 0.3.0
+[INFO   ] [deps        ] Successfully imported "kivy_deps.glew" 0.3.0
+[INFO   ] [deps        ] Successfully imported "kivy_deps.sdl2" 0.3.1
+[INFO   ] [Kivy        ] v2.0.0
+[INFO   ] [Kivy        ] Installed at "C:\Users\shroi\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\__init__.py"
+[INFO   ] [Python      ] v3.7.8 (tags/v3.7.8:4b47a5b6ba, Jun 28 2020, 08:53:46) [MSC v.1916 64 bit (AMD64)]
+[INFO   ] [Python      ] Interpreter at "C:\Users\shroi\AppData\Local\Programs\Python\Python37\python.exe"
+[INFO   ] [Factory     ] 186 symbols loaded
+[INFO   ] [Image       ] Providers: img_tex, img_dds, img_sdl2, img_pil (img_ffpyplayer ignored)
+[INFO   ] [Window      ] Provider: sdl2
+[INFO   ] [GL          ] Using the "OpenGL" graphics system
+[INFO   ] [GL          ] GLEW initialization succeeded
+[INFO   ] [GL          ] Backend used <glew>
+[INFO   ] [GL          ] OpenGL version <b'4.6.0 NVIDIA 461.09'>
+[INFO   ] [GL          ] OpenGL vendor <b'NVIDIA Corporation'>
+[INFO   ] [GL          ] OpenGL renderer <b'GeForce GTX 1060 6GB/PCIe/SSE2'>
+[INFO   ] [GL          ] OpenGL parsed version: 4, 6
+[INFO   ] [GL          ] Shading version <b'4.60 NVIDIA'>
+[INFO   ] [GL          ] Texture max size <32768>
+[INFO   ] [GL          ] Texture max units <32>
+[INFO   ] [Window      ] auto add sdl2 input provider
+[INFO   ] [Window      ] virtual keyboard not allowed, single mode, not docked
+[INFO   ] [Text        ] Provider: sdl2
+2021-01-18 15:37:42.621040: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2021-01-18 15:37:42.621261: I tensorflow/stream_executor/cuda/cudart_stub.cc:29] Ignore above cudart dlerror if you do not have a GPU set up on your machine.
+2021-01-18 15:37:45.367786: I tensorflow/compiler/jit/xla_cpu_device.cc:41] Not creating XLA devices, tf_xla_enable_xla_devices not set
+2021-01-18 15:37:45.368890: I tensorflow/stream_executor/platform/default/dso_loader.cc:49] Successfully opened dynamic library nvcuda.dll
+2021-01-18 15:37:45.390823: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1720] Found device 0 with properties: 
+pciBusID: 0000:07:00.0 name: GeForce GTX 1060 6GB computeCapability: 6.1
+coreClock: 1.8095GHz coreCount: 10 deviceMemorySize: 6.00GiB deviceMemoryBandwidth: 178.99GiB/s
+2021-01-18 15:37:45.392066: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudart64_110.dll'; dlerror: cudart64_110.dll not found
+2021-01-18 15:37:45.393059: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublas64_11.dll'; dlerror: cublas64_11.dll not found
+2021-01-18 15:37:45.394081: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cublasLt64_11.dll'; dlerror: cublasLt64_11.dll not found
+2021-01-18 15:37:45.395042: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cufft64_10.dll'; dlerror: cufft64_10.dll not found
+2021-01-18 15:37:45.396022: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'curand64_10.dll'; dlerror: curand64_10.dll not found
+2021-01-18 15:37:45.396959: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusolver64_10.dll'; dlerror: cusolver64_10.dll not found
+2021-01-18 15:37:45.397943: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cusparse64_11.dll'; dlerror: cusparse64_11.dll not found
+2021-01-18 15:37:45.398938: W tensorflow/stream_executor/platform/default/dso_loader.cc:60] Could not load dynamic library 'cudnn64_8.dll'; dlerror: cudnn64_8.dll not found
+2021-01-18 15:37:45.399119: W tensorflow/core/common_runtime/gpu/gpu_device.cc:1757] Cannot dlopen some GPU libraries. Please make sure the missing libraries mentioned above are installed properly if you would like to use GPU. Follow the guide at https://www.tensorflow.org/install/gpu for how to download and setup the required libraries for your platform.
+Skipping registering GPU devices...
+2021-01-18 15:37:45.399811: I tensorflow/core/platform/cpu_feature_guard.cc:142] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2021-01-18 15:37:45.401204: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1261] Device interconnect StreamExecutor with strength 1 edge matrix:
+2021-01-18 15:37:45.401366: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1267]      
+2021-01-18 15:37:45.401562: I tensorflow/compiler/jit/xla_gpu_device.cc:99] Not creating XLA devices, tf_xla_enable_xla_devices not set
+ Traceback (most recent call last):
+   File "E:\Shreyas\College_shit\MP_Gesture_windows_kivy\main.py", line 64, in <module>
+     res = CamApp().run()
+   File "C:\Users\shroi\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\app.py", line 949, in run
+     self._run_prepare()
+   File "C:\Users\shroi\AppData\Local\Programs\Python\Python37\lib\site-packages\kivy\app.py", line 919, in _run_prepare
+     root = self.build()
+   File "E:\Shreyas\College_shit\MP_Gesture_windows_kivy\main.py", line 37, in build
+     goingto = model_thing.predictor(self.img1)
+   File "E:\Shreyas\College_shit\MP_Gesture_windows_kivy\model_thing.py", line 37, in predictor
+     gray = cv2.cvtColor(pred_image, cv2.COLOR_BGR2GRAY)
+ TypeError: Expected Ptr<cv::UMat> for argument 'src'
+[Finished in 4.8s]
